@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ryan Leigh Sarmiento — Design &amp; Workflow Automation</title>
+  <meta name="description" content="I build seamless AI automations and high-converting graphic designs to optimize workflows and elevate digital brands." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__brand">
+      <span class="avatar avatar--30 img-slot" aria-hidden="true"><img src="images/pfp.webp" alt="" decoding="async" /></span>
+      <span>Ryan Leigh Sarmiento</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#work" data-nav>Work</a>
+      <a href="#services" data-nav>Services</a>
+      <a href="#pricing" data-nav>Pricing</a>
+      <a href="#faq" data-nav>FAQ</a>
+      <a href="#contact" class="nav__cta" data-nav>Contact</a>
+    </nav>
+    <a href="#mobile-menu" class="nav__toggle nav__toggle--open" aria-label="Open menu"><span></span><span></span></a>
+    <a href="#close" class="nav__toggle nav__toggle--close" aria-label="Close menu"><span></span><span></span></a>
+  </header>
+
+  <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile">
+    <a href="#work">Work</a>
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="wrap hero__wrap">
+        <div class="hero__copy">
+          <span class="pill-badge" data-reveal>
+            <span class="dot dot--live"></span>
+            Available for 24/7
+          </span>
+
+          <h1 class="h-display hero__title" data-reveal>
+            <span class="t-muted">Design &amp; Workflow</span><br />
+            that deliver results.
+          </h1>
+
+          <p class="hero__lead" data-reveal>
+            I build seamless AI automations and high-converting graphic designs to
+            <span class="t-soft">optimize workflows and elevate digital brands.</span>
+          </p>
+
+          <a href="#contact" class="btn btn--dark btn--hero magnetic" data-reveal>
+            <span class="avatar avatar--20 img-slot" aria-hidden="true"><img src="images/pfp.webp" alt="" decoding="async" /></span>
+            Book a call with me
+          </a>
+        </div>
+
+        <div class="hero__stack" aria-hidden="true">
+          <div class="stack__card stack__card--1 img-slot"><img src="images/project-carshop.webp" alt="" decoding="async" style="object-position: left center" /></div>
+          <div class="stack__card stack__card--2 img-slot"><img src="images/project-workflow.webp" alt="" decoding="async" style="object-position: center 30%" /></div>
+          <div class="stack__card stack__card--3 img-slot"><img src="images/project-ai-integration.webp" alt="" decoding="async" style="object-position: center 80%" /></div>
+          <div class="stack__card stack__card--front img-slot"><img src="images/project-hypherx.webp" alt="" decoding="async" /></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust">
+      <div class="wrap trust__wrap">
+        <div class="social-proof">
+          <div class="avatar-stack" aria-hidden="true">
+            <span class="img-slot"><img src="images/client-kap.webp" alt="" loading="lazy" decoding="async" /></span><span class="img-slot"><img src="images/client-robin.webp" alt="" loading="lazy" decoding="async" /></span><span class="img-slot"><img src="images/client-sara.webp" alt="" loading="lazy" decoding="async" /></span><span class="img-slot"><img src="images/client-bill.webp" alt="" loading="lazy" decoding="async" /></span><span class="img-slot"><img src="images/client-elon.webp" alt="" loading="lazy" decoding="async" /></span>
+          </div>
+          <div class="social-proof__meta">
+            <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+            <span>99+ Happy Clients</span>
+          </div>
+        </div>
+
+        <ul class="logos">
+          <li><svg class="logo-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5.362l2.475-3.026s4.245.09 8.471 2.054c-1.082 1.636-3.231 2.438-3.231 2.438-.146-1.439-1.154-1.79-4.354-1.79L12 24 8.619 5.034c-3.18 0-4.188.354-4.335 1.792 0 0-2.146-.795-3.229-2.43C5.28 2.431 9.525 2.34 9.525 2.34L12 5.362l-.004.002H12v-.002zm0-3.899c3.415-.03 7.326.528 11.328 2.28.535-.968.672-1.395.672-1.395C19.625.612 15.528.015 12 0 8.472.015 4.375.61 0 2.349c0 0 .195.525.672 1.396C4.674 1.989 8.585 1.435 12 1.46v.003z"/></svg>Tesla</li>
+          <li><svg class="logo-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="11.1" fill="none" stroke="currentColor" stroke-width="1.5"/><path transform="translate(12 12) scale(.56) translate(-12 -12)" d="M16.635 6.162l-5.928 9.377H4.24l1.508-2.3h4.024l1.474-2.335H2.264L.79 13.239h2.156L0 17.84h12.072l4.563-7.259 1.652 2.66h-1.401l-1.473 2.299h4.347l1.473 2.3H24zm-11.461.107L3.7 8.604l9.52-.035 1.474-2.3z"/></svg>EA inc.</li>
+          <li><svg class="logo-mark logo-mark--win" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M0 3.449 9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>Microsoft</li>
+          <li><svg class="logo-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.2072 5.2801c-.1052-.0188-.6126-.104-1.2072-.104s-1.102.0848-1.2072.104c-.0605.0108-.0837-.0484-.0377-.0828.0417-.0308 1.2445-.9463 1.2445-.9463l1.244.9463c.0469.0344.024.0936-.0364.0828zm-2.0783 5.9446s-.0636.0228-.0804.0788c.252.1937.4257.6343.9515.6343s.6995-.4406.9511-.6343c-.0164-.0564-.08-.0788-.08-.0788s-.3293.0776-.8711.0776c-.5418 0-.8711-.0776-.8711-.0776zM12 10.4832c-.146 0-.178-.0552-.2777-.0548-.0948.0004-.2789.076-.319.1453a.1542.1542 0 00.0413.0948c.2129.032.309.1505.5558.1505.2469 0 .3425-.1185.5558-.1505a.1579.1579 0 00.0412-.0948c-.0396-.0692-.224-.1445-.3193-.1453-.1-.0008-.1324.0548-.2781.0548zm11.9868 2.27a11.964 11.964 0 01-.076.8528c-1.359.2249-1.8447-.986-3.2368-.9252.0832.2954.1508.5963.2029.9036 1.148-.0008 1.6105 1.0724 2.8878.9143-.0672.3281-.148.6519-.2413.9708-1.01.0992-1.3657-.9044-2.5345-.8767.0096.1664.0148.3345.0148.5041l-.0048.2805 2.2696.866a12.04 12.04 0 01-.3965.9479c-.6823-.0376-.9175-.9127-1.9555-.8431a9.0882 9.0882 0 01-.118.665c.9015-.0632 1.0955.7667 1.7414.834a12.2317 12.2317 0 01-.5302.8767c-.3826-.205-.7143-.8231-1.4398-.8612a8.6035 8.6035 0 00.195-.6994c-.6435 0-1.3794-.2509-1.9964-.8127.2-1.1388-1.5674-2.2984-1.5674-3.1324 0-.9059.4582-1.4073.4582-2.6285 0-.9063-.4402-1.8895-1.104-2.5614a2.2175 2.2175 0 00-.4114-.3309c.6098.7547 1.078 1.6494 1.078 2.6858 0 1.15-.535 1.757-.535 2.8186 0 1.0612 1.5526 1.9796 1.5526 3.074 0 .4305-.1377.851-.5914 1.677.697.6962 1.605 1.076 2.1908 1.076.19 0 .292-.058.3601-.2073a9.0925 9.0925 0 00.1665-.391c.631.0245.9199.5979 1.2692.8268-.1916.2573-.393.5057-.6038.7462-.234-.2593-.5486-.6954-1.0092-.8167a9.2087 9.2087 0 01-.2613.473c.3966.108.6679.5082.878.7715a12.1305 12.1305 0 01-.7075.6754c-.1532-.2384-.3917-.541-.659-.7042a8.3639 8.3639 0 01-.3077.391c.2272.154.4277.4313.5586.6574-.2833.2272-.5763.443-.8796.6446-.1496-1.2192-1.8138-2.0548-1.3653-3.4693-.1472.2493-.3229.561-.3229.9364 0 1.024 1.0908 1.8366 1.1776 2.8542-.226.1353-.4573.2625-.693.383-.0392-1.1185-1.194-2.3425-1.194-3.2604 0-1.0248 1.342-2.054 1.342-3.2636 0-1.2105-1.5485-2.0484-1.5485-3.1112 0-1.062.6586-1.673.6586-3.0343 0-.9972-.4738-2.0063-1.2056-2.651-.1297-.1144-.2573-.2052-.4106-.2849.6903.828 1.0904 1.579 1.0904 2.7186 0 1.2801-.7546 1.9908-.7546 3.244 0 1.2537 1.5197 1.9507 1.5197 3.1192 0 1.1684-1.4145 2.1532-1.4145 3.3536 0 1.092 1.2468 2.182 1.2653 3.4777a11.7704 11.7704 0 01-.8327.3257c.1584-1.3089-1.245-2.659-1.245-3.727 0-1.1676 1.4674-2.1712 1.4674-3.43 0-1.2597-1.4917-1.8451-1.4917-3.138 0-1.292.9151-2.0075.9151-3.4352 0-1.1129-.5494-2.1136-1.352-2.7338l-.0509-.0385c-.0756-.056-.138.0116-.0844.078.5682.7095.8719 1.427.8719 2.4894 0 1.306-1.0512 2.3673-1.0512 3.6325 0 1.4934 1.4117 1.9203 1.4117 3.1456 0 1.2248-1.5137 2.2048-1.5137 3.5053 0 1.206 1.4325 2.5445 1.1868 3.9366a11.6645 11.6645 0 01-.8743.192c.2689-1.7334-1.1364-2.9782-1.1364-4.1122 0-1.2277 1.5677-2.322 1.5677-3.5217 0-1.1316-1.1252-1.5014-1.2732-2.659-.0204-.158-.1473-.2753-.3221-.2461-.2285.0416-.5214.192-.9816.192-.4602 0-.753-.1508-.982-.192-.1744-.0288-.3013.0884-.3217.246-.1476 1.1577-1.2736 1.527-1.2736 2.659 0 1.1997 1.5681 2.2937 1.5681 3.5218 0 1.134-1.4053 2.3788-1.1368 4.1123a12.1233 12.1233 0 01-.8743-.1921c-.2457-1.3921 1.1872-2.7306 1.1872-3.9366 0-1.3005-1.5141-2.2805-1.5141-3.5053 0-1.2253 1.412-1.6522 1.412-3.1456 0-1.2652-1.0515-2.326-1.0515-3.6325 0-1.062.3037-1.7795.8723-2.4893.0532-.0665-.0088-.134-.0848-.078l-.0504.0384c-.802.6186-1.351 1.6193-1.351 2.7322 0 1.4277.9152 2.1431.9152 3.4352 0 1.2925-1.4917 1.878-1.4917 3.138 0 1.2588 1.4673 2.2624 1.4673 3.43 0 1.0684-1.4033 2.4181-1.2445 3.727a11.8995 11.8995 0 01-.833-.3257c.0188-1.2957 1.2648-2.3861 1.2648-3.4777 0-1.2004-1.4137-2.1852-1.4137-3.3536 0-1.1685 1.519-1.8655 1.519-3.1192 0-1.2532-.7543-1.9639-.7543-3.244 0-1.1396.3997-1.8907 1.09-2.7186-.1537.0797-.281.1705-.4102.285-.7318.6446-1.2052 1.6537-1.2052 2.651 0 1.3612.6586 1.9722.6586 3.0342 0 1.0628-1.5485 1.9007-1.5485 3.1112 0 1.2096 1.342 2.2392 1.342 3.2636 0 .9183-1.1556 2.1423-1.1944 3.2604a11.8754 11.8754 0 01-.693-.383c.0872-1.0176 1.1776-1.8303 1.1776-2.8542 0-.3754-.1753-.687-.323-.9364.4486 1.4145-1.2156 2.25-1.3652 3.4693a12.1204 12.1204 0 01-.8796-.6446c.1305-.2257.331-.5034.5586-.6575a7.9134 7.9134 0 01-.3077-.391c-.2677.1633-.5066.4659-.6594.7043a12.2459 12.2459 0 01-.707-.6754c.21-.2633.4813-.6635.8779-.7715a9.0433 9.0433 0 01-.2613-.473c-.4606.1213-.7755.5574-1.0092.8167a12.141 12.141 0 01-.6038-.7462c.3493-.229.6382-.8027 1.2688-.8267.0529.1312.1085.2617.1669.3909.068.1493.1705.2073.3601.2073.5858 0 1.4934-.3798 2.1908-1.076-.4537-.826-.5914-1.2465-.5914-1.677 0-1.094 1.5526-2.0124 1.5526-3.074 0-1.0615-.535-1.6686-.535-2.8186 0-1.0364.4682-1.9311 1.078-2.6858a2.2175 2.2175 0 00-.4114.331c-.6638.6722-1.104 1.655-1.104 2.5613 0 1.2212.4586 1.7226.4586 2.6285 0 .834-1.7679 1.9936-1.5678 3.1324-.617.5618-1.3529.8127-1.9967.8127a9.305 9.305 0 00.1949.6994c-.7251.0385-1.0568.6567-1.4398.8612a12.0872 12.0872 0 01-.5302-.8768c.6455-.0672.84-.897 1.7419-.8339a9.1275 9.1275 0 01-.1185-.665c-1.038-.0696-1.2732.8059-1.9555.8431a12.04 12.04 0 01-.3965-.948l2.27-.8659-.0048-.2805c0-.1696.0052-.3377.0144-.5041-1.1688-.0273-1.5246.976-2.5345.8767a12.106 12.106 0 01-.241-.9708c1.2766.158 1.7395-.9151 2.888-.9143a8.7482 8.7482 0 01.2024-.9036c-1.392-.0604-1.8779 1.1505-3.2364.9252a11.7352 11.7352 0 01-.076-.8527c1.5794.1764 2.1716-1.122 3.6097-.9632a8.4303 8.4303 0 01.471-.9963c-1.803-.317-2.4153 1.1908-4.0935.9591C.1813 5.2805 5.4844.0898 12 .0898S23.8187 5.2805 24 11.753c-1.6786.2317-2.2908-1.2757-4.0935-.9591.1773.32.335.6526.471.9963 1.4373-.1592 2.0295 1.1396 3.6093.9632zm-17.147-5.035c-.884-.3613-1.954-.278-2.868.309-.1416-.8504-.603-1.6058-1.26-2.0616-.0908-.0628-.1853-.0032-.1769.102.1389 1.7967-.9115 3.3569-2.2032 4.7282 1.3313.4001 2.4645-1.3141 4.1912-.7159a9.0364 9.0364 0 012.3168-2.3617zM12 6.6314c-1.1144 0-2.048.6303-2.2924 1.4446-.0188.0624.0068.1028.0788.0704.2005-.09.4285-.1333.6762-.1333.4546 0 .8551.1669 1.092.4574.1049.3457.1137.8463-.0048 1.132-.1872-.042-.2545-.1868-.4373-.1868-.1829 0-.3245.1284-.6347.1284-.3097 0-.346-.1465-.5498-.1465-.2396 0-.2837.247-.2837.5254 0 1.2417 1.1413 2.9503 2.3553 2.9503 1.2136 0 2.3549-1.7086 2.3549-2.9503 0-.2785-.0573-.517-.3077-.5494-.1249.09-.2397.1705-.5254.1705-.3102 0-.3958-.1284-.5783-.1284-.2204 0-.1984.465-.4601.491-.1745-.4194-.1829-.9572-.038-1.4362.2373-.2905.6374-.4574 1.092-.4574.2477 0 .4773.0437.6758.1333.0724.0324.0976-.0084.0788-.0704-.244-.8143-1.1772-1.4446-2.2916-1.4446zm1.7743 1.7815c-.2673 0-.5807.082-.7775.3013-.0204.0596-.0204.1484.0084.2077.4845-.166.9119-.1725 1.1184.0584.11-.1.1452-.19.1452-.2945 0-.1613-.164-.273-.4945-.273zm-3.8979.5674c.2337-.234.7263-.224 1.238-.0352.0225-.2545-.4333-.5326-.8887-.5326-.3309 0-.4945.1116-.4945.2733 0 .1044.0352.1949.1452.2945zm7.6804-4.2031c-.8799.0628-1.6442.3649-2.2624.8683.2625-.7443.5958-1.3953 1.0184-2.0264-1.1204.1189-2.0572.5286-2.7406 1.2289l-.535-1.4025 1.1876-1.0488-1.5902-.1125L12 .8053l-.635 1.479-1.5902.1124 1.1876 1.0488-.5346 1.4025c-.6838-.7003-1.6206-1.11-2.7402-1.2289.4218.6315.7551 1.2825 1.0176 2.0264-.6178-.5038-1.3821-.806-2.262-.8683.5278.6786.9955 1.402 1.342 2.18.0393.0876.1233.1164.2141.0712 1.2053-.599 2.5634-.936 4.0003-.936 1.437 0 2.7946.3374 4.0007.936.0908.0452.1748.0164.2136-.0712.347-.778.8147-1.5014 1.343-2.18zm1.9211 5.3035c1.7259-.5982 2.8595 1.1156 4.1908.7159-1.2917-1.3713-2.3417-2.9315-2.2028-4.7282.0084-.1052-.0865-.1652-.1769-.102-.6574.4558-1.1188 1.2112-1.26 2.0615-.9144-.587-1.984-.6706-2.868-.3089a9.0431 9.0431 0 012.317 2.3617z"/></svg>Starbucks</li>
+          <li><svg class="logo-mark logo-mark--apple" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg>Apple</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="projects" id="work">
+      <div class="wrap">
+        <h2 class="h-display projects__title" data-reveal>Latest Projects</h2>
+
+        <div class="projects__grid">
+          <article class="project" data-reveal>
+            <a href="#" class="project__media img-slot" aria-label="View Workflow Automation project">
+              <img src="images/project-workflow.webp" alt="Automate Your Workflow graphic" loading="lazy" decoding="async" style="object-position: center 29%" />
+              <span class="view-chip" aria-hidden="true">View <svg viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+            </a>
+            <div class="project__meta">
+              <div>
+                <h3 class="project__name">Workflow Automation</h3>
+                <p class="project__type">Consulting Site</p>
+              </div>
+              <a href="#" class="project__link"><svg class="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg>View Project</a>
+            </div>
+          </article>
+
+          <article class="project" data-reveal>
+            <a href="#" class="project__media img-slot" aria-label="View Auto Supply Shop project"><img src="images/project-carshop.webp" alt="Auto supply shop oil change promo graphic" loading="lazy" decoding="async" /><span class="view-chip" aria-hidden="true">View <svg viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg></span></a>
+            <div class="project__meta">
+              <div>
+                <h3 class="project__name">Auto Supply Shop</h3>
+                <p class="project__type">Automotive Business</p>
+              </div>
+              <a href="#" class="project__link"><svg class="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg>View Project</a>
+            </div>
+          </article>
+
+          <article class="project" data-reveal>
+            <a href="#" class="project__media img-slot" aria-label="View Hypher X project"><img src="images/project-hypherx.webp" alt="Hypher X gaming gear graphic" loading="lazy" decoding="async" /><span class="view-chip" aria-hidden="true">View <svg viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg></span></a>
+            <div class="project__meta">
+              <div>
+                <h3 class="project__name">Hypher X</h3>
+                <p class="project__type">Gaming Gear</p>
+              </div>
+              <a href="#" class="project__link"><svg class="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg>View Project</a>
+            </div>
+          </article>
+
+          <article class="project" data-reveal>
+            <a href="#" class="project__media img-slot" aria-label="View AI Integration project"><img src="images/project-ai-integration.webp" alt="AI-Driven Software for Modern Enterprises graphic" loading="lazy" decoding="async" style="object-position: center 22%" /><span class="view-chip" aria-hidden="true">View <svg viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg></span></a>
+            <div class="project__meta">
+              <div>
+                <h3 class="project__name">AI Integration</h3>
+                <p class="project__type">Ecommerce</p>
+              </div>
+              <a href="#" class="project__link"><svg class="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg>View Project</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="projects__more" data-reveal>
+          <a href="#" class="btn btn--outline btn--lg magnetic">
+            View all my projects
+            <svg class="i-arrow i-arrow--bold" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="wrap services__wrap">
+        <div class="services__intro">
+          <h2 class="h-display services__title" data-reveal>
+            <span class="t-muted">Services that</span><br />
+            automate &amp; elevate<br />
+            <span class="services__indent">your brand.</span>
+          </h2>
+
+          <div class="stack" data-reveal>
+            <p class="label">My tech stack</p>
+            <ul class="stack__tiles">
+              <li class="tile" data-tip="n8n"><svg class="tool-mark tool-mark--n8n" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21.4737 5.6842c-1.1772 0-2.1663.8051-2.4468 1.8947h-2.8955c-1.235 0-2.289.893-2.492 2.111l-.1038.623a1.263 1.263 0 0 1-1.246 1.0555H11.289c-.2805-1.0896-1.2696-1.8947-2.4468-1.8947s-2.1663.8051-2.4467 1.8947H4.973c-.2805-1.0896-1.2696-1.8947-2.4468-1.8947C1.1311 9.4737 0 10.6047 0 12s1.131 2.5263 2.5263 2.5263c1.1772 0 2.1663-.8051 2.4468-1.8947h1.4223c.2804 1.0896 1.2696 1.8947 2.4467 1.8947 1.1772 0 2.1663-.8051 2.4468-1.8947h1.0008a1.263 1.263 0 0 1 1.2459 1.0555l.1038.623c.203 1.218 1.257 2.111 2.492 2.111h.3692c.2804 1.0895 1.2696 1.8947 2.4468 1.8947 1.3952 0 2.5263-1.131 2.5263-2.5263s-1.131-2.5263-2.5263-2.5263c-1.1772 0-2.1664.805-2.4468 1.8947h-.3692a1.263 1.263 0 0 1-1.246-1.0555l-.1037-.623A2.52 2.52 0 0 0 13.9607 12a2.52 2.52 0 0 0 .821-1.4794l.1038-.623a1.263 1.263 0 0 1 1.2459-1.0555h2.8955c.2805 1.0896 1.2696 1.8947 2.4468 1.8947 1.3952 0 2.5263-1.131 2.5263-2.5263s-1.131-2.5263-2.5263-2.5263m0 1.2632a1.263 1.263 0 0 1 1.2631 1.2631 1.263 1.263 0 0 1-1.2631 1.2632 1.263 1.263 0 0 1-1.2632-1.2632 1.263 1.263 0 0 1 1.2632-1.2631M2.5263 10.7368A1.263 1.263 0 0 1 3.7895 12a1.263 1.263 0 0 1-1.2632 1.2632A1.263 1.263 0 0 1 1.2632 12a1.263 1.263 0 0 1 1.2631-1.2632m6.3158 0A1.263 1.263 0 0 1 10.1053 12a1.263 1.263 0 0 1-1.2632 1.2632A1.263 1.263 0 0 1 7.579 12a1.263 1.263 0 0 1 1.2632-1.2632m10.1053 3.7895a1.263 1.263 0 0 1 1.2631 1.2632 1.263 1.263 0 0 1-1.2631 1.2631 1.263 1.263 0 0 1-1.2632-1.2631 1.263 1.263 0 0 1 1.2632-1.2632"/></svg></li>
+              <li class="tile" data-tip="Make"><span class="tile__text tile__text--sm">make</span></li>
+              <li class="tile" data-tip="Zapier"><svg class="tool-mark tool-mark--zapier" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="none" stroke-linecap="round"><g stroke="currentColor" stroke-width="6.6"><path d="M12 3.6v16.8M3.6 12h16.8M6.06 6.06l11.88 11.88M17.94 6.06 6.06 17.94"/></g><g stroke="#fff" stroke-width="4"><path d="M12 3.6v16.8M3.6 12h16.8M6.06 6.06l11.88 11.88M17.94 6.06 6.06 17.94"/></g></g><circle cx="12" cy="12" r="1.5"/></svg></li>
+              <li class="tile" data-tip="Airtable"><svg class="tool-mark tool-mark--airtable" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M11.992 1.966c-.434 0-.87.086-1.28.257L1.779 5.917c-.503.208-.49.908.012 1.116l8.982 3.558a3.266 3.266 0 0 0 2.454 0l8.982-3.558c.503-.196.503-.908.012-1.116l-8.957-3.694a3.255 3.255 0 0 0-1.272-.257zM23.4 8.056a.589.589 0 0 0-.222.045l-10.012 3.877a.612.612 0 0 0-.38.564v8.896a.6.6 0 0 0 .821.552L23.62 18.1a.583.583 0 0 0 .38-.551V8.653a.6.6 0 0 0-.6-.596zM.676 8.095a.644.644 0 0 0-.48.19C.086 8.396 0 8.53 0 8.69v8.355c0 .442.515.737.908.54l6.27-3.006.307-.147 2.969-1.436c.466-.22.43-.908-.061-1.092L.883 8.138a.57.57 0 0 0-.207-.044z" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linejoin="round"/></svg></li>
+              <li class="tile" data-tip="Photoshop"><span class="tile__text">Ps</span></li>
+              <li class="tile" data-tip="Illustrator"><span class="tile__text">Ai</span></li>
+              <li class="tile" data-tip="Claude"><svg class="tool-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m4.7144 15.9555 4.7174-2.6471.079-.2307-.079-.1275h-.2307l-.7893-.0486-2.6956-.0729-2.3375-.0971-2.2646-.1214-.5707-.1215-.5343-.7042.0546-.3522.4797-.3218.686.0608 1.5179.1032 2.2767.1578 1.6514.0972 2.4468.255h.3886l.0546-.1579-.1336-.0971-.1032-.0972L6.973 9.8356l-2.55-1.6879-1.3356-.9714-.7225-.4918-.3643-.4614-.1578-1.0078.6557-.7225.8803.0607.2246.0607.8925.686 1.9064 1.4754 2.4893 1.8336.3643.3035.1457-.1032.0182-.0728-.164-.2733-1.3539-2.4467-1.445-2.4893-.6435-1.032-.17-.6194c-.0607-.255-.1032-.4674-.1032-.7285L6.287.1335 6.6997 0l.9957.1336.419.3642.6192 1.4147 1.0018 2.2282 1.5543 3.0296.4553.8985.2429.8318.091.255h.1579v-.1457l.1275-1.706.2368-2.0947.2307-2.6957.0789-.7589.3764-.9107.7468-.4918.5828.2793.4797.686-.0668.4433-.2853 1.8517-.5586 2.9021-.3643 1.9429h.2125l.2429-.2429.9835-1.3053 1.6514-2.0643.7286-.8196.85-.9046.5464-.4311h1.0321l.759 1.1293-.34 1.1657-1.0625 1.3478-.8804 1.1414-1.2628 1.7-.7893 1.36.0729.1093.1882-.0183 2.8535-.607 1.5421-.2794 1.8396-.3157.8318.3886.091.3946-.3278.8075-1.967.4857-2.3072.4614-3.4364.8136-.0425.0304.0486.0607 1.5482.1457.6618.0364h1.621l3.0175.2247.7892.522.4736.6376-.079.4857-1.2142.6193-1.6393-.3886-3.825-.9107-1.3113-.3279h-.1822v.1093l1.0929 1.0686 2.0035 1.8092 2.5075 2.3314.1275.5768-.3218.4554-.34-.0486-2.2039-1.6575-.85-.7468-1.9246-1.621h-.1275v.17l.4432.6496 2.3436 3.5214.1214 1.0807-.17.3521-.6071.2125-.6679-.1214-1.3721-1.9246L14.38 17.959l-1.1414-1.9428-.1397.079-.674 7.2552-.3156.3703-.7286.2793-.6071-.4614-.3218-.7468.3218-1.4753.3886-1.9246.3157-1.53.2853-1.9004.17-.6314-.0121-.0425-.1397.0182-1.4328 1.9672-2.1796 2.9446-1.7243 1.8456-.4128.164-.7164-.3704.0667-.6618.4008-.5889 2.386-3.0357 1.4389-1.882.929-1.0868-.0062-.1579h-.0546l-6.3385 4.1164-1.1293.1457-.4857-.4554.0608-.7467.2307-.2429 1.9064-1.3114Z"/></svg></li>
+              <li class="tile" data-tip="ChatGPT"><svg class="tool-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.872zm16.5963 3.8558L13.1038 8.364 15.1192 7.2a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.407-.667zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4537l-.142.0805L8.704 5.459a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l2.602-1.4998 2.6069 1.4998v2.9994l-2.5974 1.4997-2.6067-1.4997Z"/></svg></li>
+            </ul>
+          </div>
+        </div>
+
+        <ul class="service-list">
+          <li class="service" data-reveal>
+            <span class="service__icon">
+              <svg viewBox="0 0 24 24"><rect x="5" y="7" width="14" height="11" rx="4"/><circle cx="9.5" cy="12.5" r="1.2"/><circle cx="14.5" cy="12.5" r="1.2"/><path d="M12 4v3M3 12h2M19 12h2"/><circle cx="12" cy="12" r="10.5"/></svg>
+            </span>
+            N8N Automation
+          </li>
+          <li class="service" data-reveal>
+            <span class="service__icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v5M12 17v5M2 12h5M17 12h5M4.9 4.9l3.5 3.5M15.6 15.6l3.5 3.5M4.9 19.1l3.5-3.5M15.6 8.4l3.5-3.5"/></svg>
+            </span>
+            AI Agent Development
+          </li>
+          <li class="service" data-reveal>
+            <span class="service__icon">
+              <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="4"/><path d="M8 18l-2 3M12 1.5V4"/><circle cx="9" cy="11" r="1.2"/><circle cx="15" cy="11" r="1.2"/><path d="M9.5 14.5h5"/></svg>
+            </span>
+            AI Chatbots
+          </li>
+          <li class="service" data-reveal>
+            <span class="service__icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M12 1v3M12 20v3M1 12h3M20 12h3"/><text x="12" y="14.6" text-anchor="middle" font-size="7" font-family="Inter, sans-serif" font-weight="700" stroke="none" fill="currentColor">API</text></svg>
+            </span>
+            AI &amp; API Integrations
+          </li>
+          <li class="service" data-reveal>
+            <span class="service__icon service__icon--solid">
+              <svg viewBox="0 0 24 24"><path d="M12 3l3 4 4-2-1 6 3 3-5 1-4 6-4-6-5-1 3-3-1-6 4 2z"/></svg>
+            </span>
+            Brand Design
+          </li>
+          <li class="service" data-reveal>
+            <span class="service__icon service__icon--solid">
+              <svg viewBox="0 0 24 24"><path d="M12 3 2.5 20h4.2L12 11l5.3 9h4.2z"/><path d="M8.6 20 12 14.2 15.4 20z"/></svg>
+            </span>
+            Logo Design
+          </li>
+          <li class="service" data-reveal>
+            <span class="service__icon">
+              <svg viewBox="0 0 24 24"><path d="M14 4l6 6-8 6-4-4z"/><path d="M8 12l-4 8 8-4M3 21h18"/></svg>
+            </span>
+            Graphic Design
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="wrap">
+        <h2 class="h-display about__title" data-reveal>
+          <span class="t-muted">Building smart systems</span><br />
+          and striking designs.
+        </h2>
+
+        <div class="about__grid">
+          <div class="about__profile">
+            <div class="about__photo img-slot" data-reveal>
+              <img src="images/pfp2.webp" alt="Ryan Leigh Sarmiento" loading="lazy" decoding="async" />
+            </div>
+            <p class="about__name" data-reveal>Ryan Leigh Sarmiento</p>
+            <p class="about__role" data-reveal>Automation Specialist &amp; Designer</p>
+
+            <p class="label about__history-label" data-reveal>My work history</p>
+            <input type="checkbox" id="history-more" class="sr-only" />
+            <div class="history" id="history" data-reveal>
+              <div class="history__item">
+                <div>
+                  <p class="history__company">Frameworx</p>
+                  <p class="history__role">AI Automation Specialist</p>
+                </div>
+                <span class="history__years">2025-2026</span>
+              </div>
+              <!-- extra entries: revealed by "Show all" -->
+              <div class="history__item history__item--extra">
+                <div>
+                  <p class="history__company">Company name</p>
+                  <p class="history__role">Role title</p>
+                </div>
+                <span class="history__years">2024-2025</span>
+              </div>
+              <div class="history__item history__item--extra">
+                <div>
+                  <p class="history__company">Company name</p>
+                  <p class="history__role">Role title</p>
+                </div>
+                <span class="history__years">2023-2024</span>
+              </div>
+            </div>
+            <div class="history__toggle-row">
+              <label class="chip-btn" for="history-more">
+                <span class="chip-btn__label"><span class="chip-btn__more">Show all</span><span class="chip-btn__less">Show less</span></span>
+                <svg viewBox="0 0 24 24" class="i-check-circle"><circle cx="12" cy="12" r="10" fill="currentColor" stroke="none"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2.6"/></svg>
+              </label>
+            </div>
+          </div>
+
+          <div class="about__text">
+            <p data-reveal>I bridge the gap between creative visual design and smart backend efficiency.&nbsp; <span class="t-soft">I build clean visual assets and automated systems that help businesses look great while running smoothly behind the scenes.</span></p>
+            <p data-reveal>I combine visual design with practical AI automation.<br class="br-desk" /> <span class="t-soft">My goal is to help businesses build a sharp brand identity while setting up custom workflows that eliminate repetitive manual tasks.</span></p>
+            <p data-reveal>I build solutions that connect design with intelligent technology. <span class="t-soft">I focus on crafting high-impact visual assets and automating core processes to save you time and drive growth.</span></p>
+            <p class="signature" data-reveal aria-label="Signature: Ryanleigh">Ryanleigh</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <div class="wrap">
+        <div class="pricing__head">
+          <h2 class="h-display" data-reveal>
+            <span class="t-muted">Transparent pricing.</span><br />
+            Maximum impact.
+          </h2>
+          <div class="pricing__note" data-reveal>
+            <p class="pricing__note-title">Clear costs, no hidden fees.</p>
+            <p>Choose between ongoing retainer plans or fixed single-project rates.</p>
+          </div>
+        </div>
+
+        <ol class="steps">
+          <li data-reveal>
+            <p class="steps__title"><svg viewBox="0 0 24 24"><path d="M20 11a8 8 0 0 0-14.6-4.5M4 13a8 8 0 0 0 14.6 4.5"/><path d="M5 3v4h4M19 21v-4h-4"/></svg>Subscribe</p>
+            <p class="steps__text">Choose a monthly plan or request a one-time project scope.</p>
+          </li>
+          <li data-reveal>
+            <p class="steps__title"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg>Request</p>
+            <p class="steps__text">Submit your automation specs, workflows, or graphic design tasks.</p>
+          </li>
+          <li data-reveal>
+            <p class="steps__title"><svg viewBox="0 0 24 24"><path d="M3 14h4l3 2h4a1.5 1.5 0 0 1 0 3H9M3 21h11l7-4a1.6 1.6 0 0 0-2-2.5L15 16"/><rect x="11" y="3" width="7" height="7" rx="1"/></svg>Deliver</p>
+            <p class="steps__text">Receive fully integrated workflows or visual assets within clear timelines.</p>
+          </li>
+        </ol>
+
+        <div class="plans">
+          <!-- Tilted promo card -->
+          <div class="promo-card" data-reveal>
+            <span class="promo-card__pill">Pause or cancel anytime</span>
+            <svg class="promo-card__logo" viewBox="46 44 128 152" aria-hidden="true" focusable="false">
+              <defs>
+                <linearGradient id="mMetal" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#f5f5f5"/><stop offset=".35" stop-color="#c9c9c9"/>
+                  <stop offset=".55" stop-color="#ececec"/><stop offset=".8" stop-color="#a9a9a9"/>
+                  <stop offset="1" stop-color="#d4d4d4"/>
+                </linearGradient>
+                <filter id="mBrushed" x="0" y="0" width="100%" height="100%">
+                  <feTurbulence type="fractalNoise" baseFrequency=".012 .9" numOctaves="2" seed="4" result="n"/>
+                  <feColorMatrix in="n" type="saturate" values="0" result="g"/>
+                  <feComposite in="g" in2="SourceGraphic" operator="in"/>
+                </filter>
+              </defs>
+              <g stroke-linejoin="miter">
+                <polygon points="50,48 110,118 167,49 170,48 170,72 110,145 70,94 70,140 50,125" fill="url(#mMetal)" stroke="#3a3a3a" stroke-width="1.6"/><polygon points="82,133 110,165 167,99 170,98 170,188 152,188 152,140 110,192 82,160" fill="url(#mMetal)" stroke="#3a3a3a" stroke-width="1.6"/><polygon points="52,143 70,157 70,188 52,173" fill="url(#mMetal)" stroke="#3a3a3a" stroke-width="1.6"/>
+                <polygon points="50,48 110,118 167,49 170,48 170,72 110,145 70,94 70,140 50,125" fill="#fff" filter="url(#mBrushed)" opacity=".22"/><polygon points="82,133 110,165 167,99 170,98 170,188 152,188 152,140 110,192 82,160" fill="#fff" filter="url(#mBrushed)" opacity=".22"/><polygon points="52,143 70,157 70,188 52,173" fill="#fff" filter="url(#mBrushed)" opacity=".22"/>
+                <polygon points="50,48 110,118 167,49 170,48 170,72 110,145 70,94 70,140 50,125" fill="none" stroke="rgba(255,255,255,.75)" stroke-width=".7" transform="translate(.9 .9)"/><polygon points="82,133 110,165 167,99 170,98 170,188 152,188 152,140 110,192 82,160" fill="none" stroke="rgba(255,255,255,.75)" stroke-width=".7" transform="translate(.9 .9)"/><polygon points="52,143 70,157 70,188 52,173" fill="none" stroke="rgba(255,255,255,.75)" stroke-width=".7" transform="translate(.9 .9)"/>
+              </g>
+            </svg>
+            <p class="promo-card__text"><span>Subscription design services</span><br />for brands who move fast.</p>
+          </div>
+
+          <div class="plans__row" data-reveal>
+            <div class="plan plan--hire">
+              <span class="pill-badge pill-badge--lg"><span class="dot dot--live"></span>Slots available</span>
+              <h3 class="plan__hire-title">Hire me today</h3>
+              <p class="plan__hire-text">Skip the agency markup and work directly with an experienced designer.</p>
+            </div>
+
+            <div class="plan plan--retainer">
+              <h3 class="plan__title">Automation &amp; Design Retainer</h3>
+              <p class="plan__desc">One flat monthly rate for continuous design requests <span class="t-soft">and workflow management.</span></p>
+              <hr class="plan__rule" />
+              <p class="plan__price"><span class="plan__amount"><span class="plan__amount-text">$2,500</span></span><span class="plan__per">/ month</span></p>
+              <ul class="checks">
+                <li>No contracts or long-term commitments</li>
+                <li>Workflow maintenance</li>
+                <li>Fast turnaround times</li>
+                <li>AI Agent &amp; Chatbot</li>
+                <li>Pause or cancel anytime</li>
+                <li>Graphic design</li>
+              </ul>
+              <a href="#contact" class="btn btn--dark btn--md magnetic">Get Started</a>
+            </div>
+          </div>
+
+          <div class="plan plan--single" data-reveal>
+            <div class="plan__single-copy">
+              <h3 class="plan__single-title">Single Project</h3>
+              <p class="plan__single-text">Tailored services for a specific scope. Ideal for <span>custom AI builds or one-off graphic designs.</span></p>
+            </div>
+            <ul class="checks checks--bold">
+              <li>Clearly defined scope</li>
+              <li>Direct support</li>
+              <li>Fixed timeline</li>
+              <li>Milestone updates</li>
+            </ul>
+            <a href="#contact" class="btn btn--light btn--md magnetic">
+              <svg viewBox="0 0 24 24" class="i-chat"><path d="M12 4c4.7 0 8.5 3 8.5 7s-3.8 7-8.5 7c-1 0-2-.1-2.9-.4L5 19.5l1.2-3.6C4.5 14.6 3.5 12.9 3.5 11c0-4 3.8-7 8.5-7z"/><path d="M9 9.5v2.5M8 10.5h2M13.5 9.5c1 0 1.5.6 1.5 1.3 0 .8-.7 1.2-1.5 1.2"/></svg>
+              Get a quote
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="wrap">
+        <div class="testimonials__head">
+          <h2 class="h-display testimonials__title" data-reveal>
+            <span class="t-muted">Hear from what my</span><br />
+            clients have to say.
+          </h2>
+          <div class="social-proof social-proof--lg" data-reveal>
+            <div class="avatar-stack avatar-stack--lg" aria-hidden="true">
+              <span class="img-slot"><img src="images/client-kap.webp" alt="" loading="lazy" decoding="async" /></span><span class="img-slot"><img src="images/client-robin.webp" alt="" loading="lazy" decoding="async" /></span><span class="img-slot"><img src="images/client-sara.webp" alt="" loading="lazy" decoding="async" /></span><span class="img-slot"><img src="images/client-bill.webp" alt="" loading="lazy" decoding="async" /></span><span class="img-slot"><img src="images/client-elon.webp" alt="" loading="lazy" decoding="async" /></span>
+            </div>
+            <div class="social-proof__meta">
+              <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+              <span>99+ Happy Clients</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="quotes">
+          <figure class="quote" data-reveal>
+            <span class="quote__mark" aria-hidden="true">&ldquo;</span>
+            <blockquote>Bro, this mf deserves millions for his sh*t. He built an n8n workflow in one afternoon that saved us like 20 hours a week. My team thought it was actual black magic.</blockquote>
+            <figcaption><span class="avatar avatar--40 img-slot"><img src="images/client-kap.webp" alt="" loading="lazy" decoding="async" /></span><span><b>Kap Niño Berzaga</b><small>Operations Manager at SupportEase</small></span></figcaption>
+          </figure>
+          <figure class="quote" data-reveal>
+            <span class="quote__mark" aria-hidden="true">&ldquo;</span>
+            <blockquote>Sana bago ang rocket ay magkaroon din tayo ng bullet train but anyways, Ryan stepped in. He wired up all our integrations and now everything runs smoothly on autopilot. Absolute legend!</blockquote>
+            <figcaption><span class="avatar avatar--40 img-slot"><img src="images/client-robin.webp" alt="" loading="lazy" decoding="async" /></span><span><b>Senator Robin Padilla</b><small>Senator at Malacañang</small></span></figcaption>
+          </figure>
+          <figure class="quote" data-reveal>
+            <span class="quote__mark" aria-hidden="true">&ldquo;</span>
+            <blockquote>Ryan’s design work is so unreal that our co-founder thought we blew our entire quarterly budget on a top-tier agency. Hanep lopit mo men, men...</blockquote>
+            <figcaption><span class="avatar avatar--40 img-slot"><img src="images/client-bill.webp" alt="" loading="lazy" decoding="async" /></span><span><b>Bill Gates</b><small>American businessman</small></span></figcaption>
+          </figure>
+          <figure class="quote" data-reveal>
+            <span class="quote__mark" aria-hidden="true">&ldquo;</span>
+            <blockquote>Pax silic...? I cannot comment on that, but I have a comment for Ryan’s work. He built the whole damn N8N setup in two days flat. Zero fluff, zero BS he just gets shit done.</blockquote>
+            <figcaption><span class="avatar avatar--40 img-slot"><img src="images/client-sara.webp" alt="" loading="lazy" decoding="async" /></span><span><b>Sara Duterte</b><small>Vice President of the Philippines</small></span></figcaption>
+          </figure>
+          <figure class="quote" data-reveal>
+            <span class="quote__mark" aria-hidden="true">&ldquo;</span>
+            <blockquote>Ryan’s custom automations are ridiculously fast. He fixed our telemetry workflow bottlenecks at Tesla faster than Cybertruck’s 0 to 60. This guy's code is pure magic, give him all the money.</blockquote>
+            <figcaption><span class="avatar avatar--40 img-slot"><img src="images/client-elon.webp" alt="" loading="lazy" decoding="async" /></span><span><b>Elon Musk</b><small>American businessman</small></span></figcaption>
+          </figure>
+          <figure class="quote" data-reveal>
+            <span class="quote__mark" aria-hidden="true">&ldquo;</span>
+            <blockquote>Damn ang lupet mo sa graphic designs, lalo na sa paggawa ng PPT. Sa mga next reporting natin ako naman gagawa. Salute men, for real for real!</blockquote>
+            <figcaption><span class="avatar avatar--40 img-slot"><img src="images/client-ezekiel.webp" alt="" loading="lazy" decoding="async" /></span><span><b>Ezekiel Torres</b><small>Kargador sa Columban</small></span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="wrap faq__wrap">
+        <div class="faq__main">
+          <h2 class="h-display faq__title" data-reveal>
+            Your questions<br />
+            <span class="t-muted">answered.</span>
+          </h2>
+
+          <div class="accordion">
+            <details class="acc" name="faq" data-reveal>
+              <summary class="acc__head"><span class="acc__num">01</span>
+                <span class="acc__q">How fast can you actually build my automation or design project?</span>
+                <span class="acc__plus" aria-hidden="true"></span>
+              </summary>
+              <div class="acc__panel">
+                <p>Most automations and design requests ship within 2–5 business days. Larger builds are split into weekly milestones so you always see progress.</p>
+              </div>
+            </details>
+            <details class="acc" name="faq" data-reveal>
+              <summary class="acc__head"><span class="acc__num">02</span>
+                <span class="acc__q">What if my current system/backend is a total dumpster fire?</span>
+                <span class="acc__plus" aria-hidden="true"></span>
+              </summary>
+              <div class="acc__panel">
+                <p>That's the usual starting point. I audit what you have, keep what works, and rebuild the rest into clean, documented workflows.</p>
+              </div>
+            </details>
+            <details class="acc" name="faq" data-reveal>
+              <summary class="acc__head"><span class="acc__num">03</span>
+                <span class="acc__q">Can you really code AI workflows and make clean designs?</span>
+                <span class="acc__plus" aria-hidden="true"></span>
+              </summary>
+              <div class="acc__panel">
+                <p>Yes — both sides live under one roof, so the brand and the systems behind it are built to work together from day one.</p>
+              </div>
+            </details>
+            <details class="acc" name="faq" data-reveal>
+              <summary class="acc__head"><span class="acc__num">04</span>
+                <span class="acc__q">Do you offer ongoing support after the project is done?</span>
+                <span class="acc__plus" aria-hidden="true"></span>
+              </summary>
+              <div class="acc__panel">
+                <p>Absolutely. The retainer covers maintenance and new requests, or you can book support hours on a single project.</p>
+              </div>
+            </details>
+            <details class="acc" name="faq" data-reveal>
+              <summary class="acc__head"><span class="acc__num">05</span>
+                <span class="acc__q">How do we get started and handle payments?</span>
+                <span class="acc__plus" aria-hidden="true"></span>
+              </summary>
+              <div class="acc__panel">
+                <p>Book a free discovery call, we agree on scope, and you pay monthly (retainer) or per milestone (single project).</p>
+              </div>
+            </details>
+          </div>
+        </div>
+
+        <aside class="cta-card" data-reveal>
+          <span class="avatar avatar--68 img-slot" aria-hidden="true"><img src="images/pfp.webp" alt="" loading="lazy" decoding="async" /></span>
+          <p class="cta-card__eyebrow">Still not sure?</p>
+          <p class="cta-card__title">Book a free discovery call.</p>
+          <p class="cta-card__text">Learn more about how I work and how I can help you and your business take the next step.</p>
+          <div class="cta-card__actions">
+            <a href="#" class="btn btn--dark btn--md magnetic"><span aria-hidden="true">📅</span> Schedule Now</a>
+            <a href="#" class="cta-card__link">Cal.com</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="wrap">
+      <p class="footer__title" data-reveal>
+        <span>Lets create</span><br />
+        <span class="footer__title-muted">incredible work together.</span>
+      </p>
+
+      <div class="footer__info">
+        <div>
+          <p class="footer__label">Email</p>
+          <a href="mailto:ryanleigh@launchnow.design" class="footer__value">ryanleigh@launchnow.design</a>
+        </div>
+        <div>
+          <p class="footer__label">Call Me</p>
+          <a href="#" class="footer__value">Book Now</a>
+        </div>
+        <div>
+          <p class="footer__label">Social</p>
+          <div class="socials">
+            <a href="#" class="socials__x" aria-label="X — 1,214 followers">
+              <svg viewBox="0 0 24 24"><path d="M4 4l16 16M20 4 4 20" /></svg>1,214
+            </a>
+            <a href="#" class="socials__icon" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="4"/><circle cx="12" cy="12" r="3.2"/><circle cx="16" cy="8" r=".6" fill="currentColor"/></svg></a>
+            <a href="#" class="socials__icon" aria-label="Upwork"><svg viewBox="0 0 24 24"><text x="12" y="15.5" text-anchor="middle" font-size="13" font-weight="800" font-family="Inter, sans-serif" stroke="none" fill="currentColor">up</text></svg></a>
+            <a href="#" class="socials__icon" aria-label="Behance"><svg viewBox="0 0 24 24"><text x="12" y="15.5" text-anchor="middle" font-size="13" font-weight="800" font-family="Inter, sans-serif" stroke="none" fill="currentColor">Bē</text></svg></a>
+            <a href="#" class="socials__icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="7.5"/><text x="12" y="15" text-anchor="middle" font-size="9" font-weight="800" font-family="Inter, sans-serif" stroke="none" fill="currentColor">in</text></svg></a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="footer__rule" />
+
+      <div class="footer__bottom">
+        <div>
+          <p class="footer__label">Email</p>
+          <ul class="footer__links footer__links--grid">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__label">Legal</p>
+          <ul class="footer__links">
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <p class="footer__copyright">© 2026 Ryan Leigh Sarmiento</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
